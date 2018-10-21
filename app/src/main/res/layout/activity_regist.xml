@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_regist_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名" />
+
+    <EditText
+        android:id="@+id/et_regist_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/et_regist_password_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请再次输入密码"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/btn_regist_regist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册" />
+
+</LinearLayout>
